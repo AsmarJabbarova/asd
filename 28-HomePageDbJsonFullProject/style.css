@@ -1,0 +1,63 @@
+.cardd{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.pages{
+    display: flex;
+}
+
+.basliq{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+background: linear-gradient(20deg, rgba(34,193,195,1) 0%, rgba(10, 235, 37, 0.87) 100%);
+}
+img{
+    height: 70px;
+    width: 30opx;
+    /* margin-top: 30px; */
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.category{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    /* margin-top: 30px; */
+}
+
+.searchbar{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+input{
+    width: 60%;
+    height: 50px;
+    border-radius: 20px;
+}
+.searchbar button{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+
+
+.sea{
+    margin-left: 233px;
+}
+
+
+

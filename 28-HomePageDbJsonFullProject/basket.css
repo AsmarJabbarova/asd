@@ -1,0 +1,28 @@
+.cardd{
+    width: 90%;
+    height: 700px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 56px;
+    align-items: center;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foto{
+    width: 30%;
+}
+.foto img{
+    width: 30%;
+}
