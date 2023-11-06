@@ -1,0 +1,67 @@
+.cardd{
+    width: 90%;
+    height: 700px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    align-items: center;
+}
+.header .title{
+    font-size: 26px;
+    color: green;
+    font-weight: 700;
+}
+.removeAll{
+    font-size: 26px;
+    color: red ;
+    font-weight: 700;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.foto{
+    width: 30%;
+}
+.foto img{
+    width: 150px;
+    height: 150px;
+}
+
+.products{
+    height: 100%;
+}
+
+.name h2{
+    font-size: 25px;
+}
+
+.count{
+    font-size: 27px;
+}
+.price{
+    font-size: 27px;
+}
+
+.delete i{
+    font-size: 30px;
+    color: red;
+}
+
+.subTotal{
+    font-size: 60px;
+}
+.subTotal .total{
+    color: green;
+}
