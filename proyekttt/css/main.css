@@ -1,3 +1,139 @@
+.shbag {
+  margin-left: 99px;
+  font-size: 32px;
+}
+
+.sol {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.sol .mehsul-card {
+  width: 744px;
+  height: 211px;
+  border-radius: 8px;
+  border: 1px solid #E4E4E4;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sol .mehsul-card .sekil {
+  width: 151px;
+  height: 179px;
+  border-radius: 8px;
+  background: #F9F9F9;
+}
+.sol .mehsul-card .sekil img {
+  width: 100%;
+}
+.sol .mehsul-card .melumatlar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 14px;
+  width: 100%;
+}
+.sol .mehsul-card .melumatlar .ititle {
+  display: flex;
+  justify-content: space-between;
+  color: #212121;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 27.2px */
+}
+.sol .mehsul-card .melumatlar .detallar, .sol .mehsul-card .melumatlar .secim {
+  display: flex;
+  color: rgba(33, 33, 33, 0.75);
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  /* 23.8px */
+}
+.sol .mehsul-card .melumatlar .detallar {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 18px;
+}
+.sol .mehsul-card .melumatlar .detallar select {
+  width: 50px;
+}
+.sol .mehsul-card .melumatlar .secim {
+  display: flex;
+  justify-content: flex-end;
+  gap: 22px;
+}
+
+.sag {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sag .order {
+  width: 360px;
+  height: 275px;
+  border-radius: 8px;
+  background: #F9F9F9;
+  color: #212121;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 27.2px */
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 23px;
+}
+.sag .order .subtotal {
+  display: flex;
+  justify-content: space-between;
+}
+.sag .order .shipping {
+  display: flex;
+  justify-content: space-between;
+}
+.sag .order .total {
+  color: #212121;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 30.6px */
+  display: flex;
+  justify-content: space-between;
+}
+.sag .order .promocode .apply {
+  border-radius: 0px 8px 8px 0px;
+  background: #FF695E;
+}
+.sag .confirm .btn-danger {
+  width: 360px;
+  height: 52px;
+  border-radius: 8px;
+  background: #DF4244;
+}
+.sag .nagd .btn-light {
+  background: #FFF;
+  border-radius: 8px;
+  width: 360px;
+  height: 52px;
+  border: 1px solid #212121;
+}
+
+.esas {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 30px;
+}
+
 .right li {
   list-style: none;
 }
@@ -522,6 +658,8 @@ align-content: center;
 }
 
 .aboxs {
+  margin-top: 37px;
+  margin-bottom: 37px;
   height: 249px;
   display: flex;
   justify-content: space-around;
@@ -656,8 +794,7 @@ align-content: center;
   justify-content: space-between;
   display: flex;
   align-items: center;
-  padding: 50px 0;
-  gap: 520px;
+  padding: 50px 66px;
 }
 .snobella-footer p {
   color: #000;

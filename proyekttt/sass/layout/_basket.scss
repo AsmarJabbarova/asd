@@ -1,0 +1,154 @@
+
+.shbag{
+    margin-left: 99px;
+    font-size: 32px;
+}
+.sol{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    .mehsul-card{
+        width: 744px;
+height: 211px;
+border-radius: 8px;
+border: 1px solid #E4E4E4;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+.sekil{
+    width: 151px;
+height: 179px;
+border-radius: 8px;
+background: #F9F9F9;
+    img{
+        width: 100%;
+
+    }
+}
+.melumatlar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 14px;
+    width: 100%;
+    .ititle{
+        display: flex;
+        justify-content: space-between;
+        color: #212121;
+font-family:"Rubik";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 170%; /* 27.2px */
+    }
+
+    .detallar,.secim{
+        display: flex;
+        color: rgba(33, 33, 33, 0.75);
+font-family: "Poppins";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%;
+ /* 23.8px */
+    }
+    .detallar{
+        display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 18px;
+    select{
+        width: 50px;
+    }
+    }
+    .secim{
+        display: flex;
+        justify-content: flex-end;
+        gap: 22px;
+    }
+}
+    }
+}
+
+
+.sag{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .order{
+        
+width: 360px;
+height: 275px;
+border-radius: 8px;
+background: #F9F9F9;
+color: #212121;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%; /* 27.2px */
+padding: 25px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 23px;
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+.shipping{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total{
+    color: #212121;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 170%; /* 30.6px */
+display: flex;
+justify-content: space-between;
+}
+.promocode {
+    .apply{
+        border-radius: 0px 8px 8px 0px;
+background: #FF695E;
+    }
+}
+
+
+    }
+    .confirm{
+        .btn-danger{
+            width: 360px;
+            height: 52px;
+            border-radius: 8px;
+            background: #DF4244;
+        }
+     
+       
+    }
+    .nagd{
+        .btn-light{
+            background: #FFF;
+            
+            border-radius: 8px;
+            width: 360px;
+            height: 52px;
+          
+border: 1px solid #212121;
+        }
+    }
+
+}
+
+.esas{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 30px;
+}
+
