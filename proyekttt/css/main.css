@@ -1000,4 +1000,185 @@ align-content: center;
   font-style: normal;
   font-weight: 400;
   line-height: 170%; /* 23.8px */
+}
+
+.aorder h1 {
+  margin-left: 20px;
+}
+
+.aorder {
+  display: flex;
+}
+.aorder .leftpart {
+  margin-top: 100px;
+  width: 264px;
+}
+.aorder .leftpart .left {
+  border-radius: 8px;
+  border: 1px solid #E4E4E4;
+}
+.aorder .head {
+  display: flex;
+  gap: 20px;
+  padding: 19px;
+  border-bottom: 1px solid #E4E4E4;
+  align-items: center;
+}
+.aorder .head p {
+  color: rgba(33, 33, 33, 0.75);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 23.8px */
+}
+.aorder .body li {
+  list-style: none;
+  margin-top: 10px;
+}
+.aorder .box1 {
+  border-top: none;
+  width: 100%;
+}
+.aorder .box1 img {
+  width: 34px;
+  height: 40px;
+}
+.aorder .table {
+  margin-top: 100px;
+  border: 1px solid #E4E4E4;
+}
+.aorder .table .canceled {
+  color: #DF4244;
+}
+.aorder .table .delievred {
+  color: #007878;
+}
+.aorder .table .pending {
+  color: #FFC80A;
+}
+.aorder .table td {
+  padding: 20px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.col-4 {
+  position: relative;
+  right: 121px;
+}
+
+.col-8 {
+  position: relative;
+  right: 121px;
+}
+
+.adresler {
+  margin-bottom: 100px;
+}
+.adresler .asmar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-top: 100px;
+}
+.adresler .asmar .creatAddres {
+  width: 264px;
+  height: 309px;
+  border-radius: 8px;
+  border: 1px dashed #007878;
+  background: #F9F9F9;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.adresler .asmar .jake {
+  width: 264px;
+  height: 309px;
+  border-radius: 8px;
+  border: 1px solid #007878;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.adresler .asmar .jake .ust {
+  border-bottom: 1px solid #E4E4E4;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+.adresler .asmar .jake .orta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+  padding: 20px;
+}
+.adresler .asmar .jake .orta .aboz {
+  color: #212121;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 23.8px */
+}
+.adresler .asmar .jake .orta .boz {
+  color: rgba(33, 33, 33, 0.75);
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 23.8px */
+}
+.adresler .asmar .jake .alt {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+.adresler .asmar .jake .alt .edit {
+  display: flex;
+  width: 74px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid #E4E4E4;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.adresler .asmar .jake .alt .edit img {
+  width: 16px;
+  height: 16px;
+}
+.adresler .asmar .jake .alt .edit .ed {
+  color: #585858;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 23.8px */
+}
+.adresler .asmar .jake .alt .aremove {
+  display: flex;
+  width: 74px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid #E4E4E4;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.adresler .asmar .jake .alt .aremove img {
+  width: 16px;
+  height: 16px;
+}
+.adresler .asmar .jake .alt .aremove .remo {
+  color: rgba(33, 33, 33, 0.75);
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 23.8px */
 }/*# sourceMappingURL=main.css.map */

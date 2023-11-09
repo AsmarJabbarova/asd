@@ -1,0 +1,115 @@
+.adresler{
+    margin-bottom: 100px;
+    .asmar{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 22px;
+        margin-top: 100px;
+        .creatAddres{
+            width: 264px;
+            height: 309px;
+            border-radius: 8px;
+            border: 1px dashed #007878;
+            background: #F9F9F9;    
+        
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+    .jake{
+        width: 264px;
+    height: 309px;
+    border-radius: 8px;
+    border: 1px solid #007878;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .ust{
+        border-bottom: 1px
+        solid  #E4E4E4;
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+      
+    
+    }
+    .orta{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200px;
+        padding: 20px;
+        .aboz{
+            color: #212121;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%; /* 23.8px */
+    
+        }
+        .boz{
+            color: rgba(33, 33, 33, 0.75);
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 23.8px */
+        }
+    }
+    .alt{
+        display: flex;
+        justify-content: space-around;
+            padding: 15px;
+        .edit{
+            display: flex;
+            width: 74px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid #E4E4E4;
+    align-items: center;
+        justify-content: space-evenly;
+       
+    img{
+        width: 16px;
+    height: 16px;
+    }
+    .ed{
+        color: #585858;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 23.8px */
+    }
+        }
+        .aremove{
+            display: flex;
+            width: 74px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid #E4E4E4;
+    align-items: center;
+        justify-content: space-evenly;
+    img{
+        width: 16px;
+    height: 16px;
+    }
+    .remo{
+        color: rgba(33, 33, 33, 0.75);
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 23.8px */
+    }
+        }
+    }
+    }
+    
+        }
+}
+
