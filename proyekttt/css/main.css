@@ -1181,4 +1181,17 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 170%; /* 23.8px */
+}
+
+.siya {
+  gap: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.siya .bagla {
+  width: 6%;
+  right: 11px;
+  position: absolute;
+  top: 9px;
 }/*# sourceMappingURL=main.css.map */
