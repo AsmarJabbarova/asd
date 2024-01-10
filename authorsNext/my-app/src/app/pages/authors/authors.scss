@@ -1,0 +1,52 @@
+.authorsMain{
+width: 100%;
+
+    .navHome{
+        height: 90px;
+        width: 100%;
+       background-color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .title{
+            color: white;
+        }
+        .list{
+            display: flex;
+            gap: 41px
+       
+            
+        }
+        .link{
+            text-decoration: none;
+            color: white;
+         }
+    }
+    .section1{
+        display: flex;
+        gap: 25px;
+        height: 100px;
+        .search{
+            input{
+                height: 100px;
+                border: 1px solid black;
+            }
+        }
+        .gender{
+            select{
+                height: 100px;
+                border: 1px solid black;
+            }
+        }
+    }
+    .cards{
+        display: flex;
+        justify-content: space-around;
+.card{
+    width: 300px;
+   
+}
+
+    }
+
+}

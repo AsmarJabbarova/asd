@@ -1,0 +1,47 @@
+.addAuthors{
+
+    .navHome{
+        height: 90px;
+        width: 100%;
+       background-color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .title{
+            color: white;
+        }
+        .list{
+            display: flex;
+            gap: 41px
+       
+            
+        }
+        .link{
+            text-decoration: none;
+            color: white;
+         }
+    }
+.addTitle{
+    display: flex;
+    justify-content: center;
+    
+   
+
+}
+    .forms{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        gap: 30px;
+    
+        input{
+            border-bottom: 1px solid rgb(223, 213, 213);
+        }
+        .selectDead{
+            display: flex;
+    align-items: center;
+        }
+    }
+
+}
