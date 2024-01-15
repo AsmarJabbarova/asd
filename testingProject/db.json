@@ -1,0 +1,75 @@
+{
+  "products": [
+    {
+      "id": "6yj",
+      "imgPath": "/assets/img/2.png",
+      "name": "Mary Rosamund",
+      "price": 88,
+      "color": "red"
+    },
+    {
+      "id": "6yhgb",
+      "imgPath": "/assets/img/3.png",
+      "name": "Sherlock Watson",
+      "price": 56,
+      "color": "red"
+    },
+    {
+      "id": "ghgh",
+      "imgPath": "/assets/img/4.png",
+      "name": "John Holmes",
+      "price": 34,
+      "color": "red"
+    },
+    {
+      "id": 5,
+      "imgPath": "/assets/img/5.png",
+      "name": "Mycroft Lestrade",
+      "price": 20,
+      "color": "red"
+    },
+    {
+      "id": "16b6",
+      "name": "wer",
+      "price": "345",
+      "color": "blue"
+    },
+    {
+      "id": "6c1c",
+      "name": "dcfvg",
+      "price": "345",
+      "color": "black"
+    },
+    {
+      "id": "01ea",
+      "name": "dcfv",
+      "price": "43",
+      "color": "red"
+    },
+    {
+      "id": "ea2f",
+      "name": "sdas",
+      "price": "12"
+    },
+    {
+      "id": "6cf1",
+      "name": "dc",
+      "price": "023"
+    },
+    {
+      "id": "fe8d",
+      "name": "asdfg",
+      "price": "34"
+    },
+    {
+      "id": "a430",
+      "name": "asdf",
+      "price": "123"
+    },
+    {
+      "id": "6efa",
+      "name": "asdf",
+      "price": "765"
+    }
+  ]
+}
