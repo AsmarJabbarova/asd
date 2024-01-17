@@ -1,0 +1,109 @@
+.container{
+.books{
+
+.title{
+    font-size: 80px;
+    color: white;
+}
+
+.but{
+    .button1{
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 20px;
+        height: 60px;
+        border:1px solid white;
+        width: 250px;
+        color: white;
+
+    }
+}
+
+    width: 100%;
+    height: 700px;
+   background: url("https://preview.colorlib.com/theme/tasty/images/bg_2.jpg");
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+// .bookTab{
+//     display: flex;
+//     height: 158px;
+//     background-color: orange;
+//     align-items: center;
+//     gap: 120px;
+// .inputs{
+//     display: flex;
+//     gap: 40px;
+// input{
+   
+//     height: 70px;
+//     width: 188px;
+//     background-color: rgba(255, 255, 255, 0);
+//     border: 1px solid black;
+ 
+// }
+// }
+
+    
+// }
+.section2{
+    .about{
+width: 60%;
+height: 750px;
+display: flex;
+.left{
+
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .our{
+        font-size: 35px;
+    }
+    .lorem{
+        font-size: 20px;
+    }
+}
+
+    }
+}
+.secMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    .title{
+        
+    font-size: 40px;
+    }
+    .buttonss{
+        display: flex;
+    gap: 29px;
+  
+        button{
+           border: white;
+           background-color: rgb(174, 169, 169);
+           color: white;
+            height: 60px;
+            width: 116px;
+            font-size: 20px;
+            cursor: pointer;
+            &:hover{
+                background-color: orange;
+            }
+        }
+    }
+.menu{
+    .card{
+        .asd{
+            display: flex;
+        }
+    }
+}
+
+}
+
+}

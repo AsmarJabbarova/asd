@@ -1,0 +1,20 @@
+{
+    "product": [
+      {
+        "id": "59761c23b30d971669fb42ff",
+        "name": "Grilled Beef with potatoes",
+        "ingredients":"Meat, Potatoes, Rice, Tomatoe",
+        "price":29,
+        "img":"https://preview.colorlib.com/theme/tasty/images/dish-3.jpg"
+
+      },
+      {
+        "id": "59761c23b30d972ff",
+        "name": "Fruit Vanilla Ice Cream",
+        "ingredients":"Meat, Potatoes, Rice, Tomatoe",
+        "price":28,
+        "img":"https://preview.colorlib.com/theme/tasty/images/dish-4.jpg"
+
+      }
+    ]
+  }
