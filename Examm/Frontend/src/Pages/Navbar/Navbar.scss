@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;
+}
+
+.mainNav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid black;
+    
+    color: wheat;
+.title{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid black;
+}
+
+    .list{
+        display: flex;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        color: wheat;
+        gap: 50px;
+        a{
+            color: wheat;
+        }
+    }
+
+    .reser{
+        display: flex;
+        height: 100px;
+        gap: 11px;
+        align-items: center;
+        border-left: 1px solid black;
+    }
+        .phone{
+            display: flex;
+            .ico{
+               color: orange;
+            }
+        }
+    }

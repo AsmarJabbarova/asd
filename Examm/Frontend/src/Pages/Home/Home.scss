@@ -1,0 +1,62 @@
+.mainHome{
+
+
+.slider{
+    position: relative;
+
+    .sliderTitle{
+font-size: 80px;
+position: absolute;
+margin-bottom: 350px;
+
+    }
+
+}
+    
+
+
+.menu{
+    color: wheat;
+    background: url(https://preview.colorlib.com/theme/pulse/img/menu-bg.jpg);
+    .our{
+        display: flex;
+        flex-direction: column;
+        font-size: 52px;
+    }
+    .searchFilter{
+        display: flex;
+        button{
+            height: 30px;
+            width: 100px;
+            color: wheat;
+            background-color: gray;
+        }
+    }
+
+    .cards{
+        display: flex;
+    flex-wrap: wrap;
+        .kart{
+            height: 100px;
+            border: 1px solid black;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        
+            .name{
+                font-size: 20px;
+            }
+
+            .up{
+                display: flex;
+                gap: 33px;
+            }
+        }
+    }
+    
+}
+
+
+}
